@@ -1,0 +1,21 @@
+{
+  "_ayuda": [
+    "Precios de ImportAle Store (tienda al público). Todo a $65.000, menos las Jordan 11 a $68.000.",
+    "Gana la PRIMERA regla que coincide, de arriba hacia abajo. 'contains': alguna de esas palabras aparece en el nombre.",
+    "No vende por mayor: \"wholesale\": false (no se muestra nada de precio por mayor)."
+  ],
+  "wholesale": false,
+  "unit": {
+    "default": 65000,
+    "rules": [
+      {
+        "price": 68000,
+        "contains": [
+          "jordan 11",
+          "retro 11"
+        ]
+      }
+    ]
+  },
+  "overrides": {}
+}

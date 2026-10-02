@@ -4,8 +4,8 @@
  * Tienda de cliente: usa el mismo catálogo y el mismo motor que L.A IMP, con
  * su propio nombre, colores, contacto y precios (precios-minorista.json).
  *
- * Solo tienda al público (sin versión por mayor). Colores negro y dorado,
- * como su logo. Lo marcado con "COMPLETAR" todavía no lo sabemos.
+ * Solo tienda al público (sin versión por mayor). Colores neutros, iguales
+ * a los de ClienteA (todas las tiendas de clientes usan los mismos). Lo marcado con "COMPLETAR" todavía no lo sabemos.
  */
 window.STORE_CONFIG = {
   id: "importalestore",
@@ -26,7 +26,7 @@ window.STORE_CONFIG = {
     alt: "ImportAle Store",
   },
 
-  // Negro y dorado, como el logo. Abre en negro; con el botón del header se pasa a blanco.
+  // Tema neutro. Para personalizarlo alcanza con cambiar estos colores.
   theme: {
     fonts: {
       stylesheet: "/motor/fuentes/fuentes.css",
@@ -34,35 +34,20 @@ window.STORE_CONFIG = {
       body: "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
     },
     colors: {
-      "bg": "#f7f5f1",
+      "bg": "#f5f5f3",
       "surface": "#ffffff",
-      "surface-2": "#efebe4",
-      "border": "#ddd6ca",
-      "text": "#141414",
-      "text-muted": "#5e5a54",
-      "accent": "#141414",
-      "accent-strong": "#7a5c30",
+      "surface-2": "#ececea",
+      "border": "#d9d9d5",
+      "text": "#18181b",
+      "text-muted": "#5b5b63",
+      "accent": "#18181b",
+      "accent-strong": "#18181b",
       "accent-contrast": "#ffffff",
-      "accent-gradient": "#141414",
+      "accent-gradient": "#18181b",
       "danger": "#c62828",
       "success": "#2e7d32",
     },
     colorScheme: "light",
-    defaultMode: "dark",
-    darkColors: {
-      "bg": "#0b0b0c",
-      "surface": "#161616",
-      "surface-2": "#222222",
-      "border": "#3a3328",
-      "text": "#f5f1ea",
-      "text-muted": "#b3aa9c",
-      "accent": "#d6b98a",
-      "accent-strong": "#e6cda3",
-      "accent-contrast": "#0b0b0c",
-      "accent-gradient": "#d6b98a",
-      "danger": "#ef5350",
-      "success": "#66bb6a",
-    },
     density: "compacta",
   },
 

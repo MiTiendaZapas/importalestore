@@ -48,6 +48,22 @@ window.STORE_CONFIG = {
       "success": "#2e7d32",
     },
     colorScheme: "light",
+    // Modo oscuro: abre en blanco, salvo que el celular o la computadora del
+    // cliente esté configurado en oscuro. Con el botón del header se cambia a mano.
+    darkColors: {
+      "bg": "#111113",
+      "surface": "#1a1a1d",
+      "surface-2": "#26262a",
+      "border": "#34343a",
+      "text": "#f4f4f5",
+      "text-muted": "#a1a1aa",
+      "accent": "#f4f4f5",
+      "accent-strong": "#ffffff",
+      "accent-contrast": "#111113",
+      "accent-gradient": "#f4f4f5",
+      "danger": "#ef5350",
+      "success": "#66bb6a",
+    },
     density: "compacta",
   },
 

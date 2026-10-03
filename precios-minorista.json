@@ -1,6 +1,6 @@
 {
   "_ayuda": [
-    "Precios de ImportAle Store (tienda al público). Zapatillas $65.000, Jordan 11 $68.000, ojotas Mind $54.000, otras ojotas $45.000.",
+    "Precios de ImportAle Store (tienda al público). Zapatillas $65.000, todas las Jordan $68.000, ojotas Mind $54.000, otras ojotas $45.000.",
     "Gana la PRIMERA regla que coincide, de arriba hacia abajo. 'contains': alguna de esas palabras aparece en el nombre.",
     "No vende por mayor: \"wholesale\": false (no se muestra nada de precio por mayor)."
   ],
@@ -11,7 +11,7 @@
       {
         "price": 68000,
         "contains": [
-          "jordan 11",
+          "jordan",
           "retro 11"
         ]
       },

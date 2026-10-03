@@ -8,5 +8,5 @@ cuando el piloto automático sube el catálogo.
 - Tienda: https://mitiendazapas.github.io/importalestore/
 
 Solo tienda al público (no vende por mayor).
-Precios (precios-minorista.json): zapatillas $65.000, Jordan 11 $68.000, ojotas Mind $54.000, otras ojotas $45.000.
+Precios (precios-minorista.json): zapatillas $65.000, todas las Jordan $68.000, ojotas Mind $54.000, otras ojotas $45.000.
 Para cambiar colores, WhatsApp o textos: configuracion.js.

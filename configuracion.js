@@ -128,7 +128,8 @@ window.STORE_CONFIG = {
 
   platformPromo: { enabled: false },
   platformCredit: {
-    enabled: true,
+    // Apagado mientras las tiendas estén en GitHub (no mostrar que se venden tiendas). Se vuelve a prender en Cloudflare.
+    enabled: false,
     text: "¿Querés una tienda así?",
     whatsapp: "5491153773771",
     message: "¡Hola! Vi la tienda de {tienda} y quiero una tienda así para mi negocio.",

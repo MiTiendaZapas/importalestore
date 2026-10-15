@@ -17,8 +17,8 @@ window.STORE_CONFIG = {
   catalogOrder: "marca-modelo",
   catalogHeader: "compacto",
 
-  // Igual que las otras tiendas de clientes: solo stock del proveedor.
-  includeHouseStock: false,
+  // Stock del proveedor más el stock de casa de L.A IMP (15/10).
+  includeHouseStock: true,
 
   logo: {
     small: "marca/logo-160.webp",

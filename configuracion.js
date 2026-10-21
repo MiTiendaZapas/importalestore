@@ -126,7 +126,12 @@ window.STORE_CONFIG = {
     ],
   },
 
-  platformPromo: { enabled: false },
+  // Al pie: aviso grande "¿Querés una tienda así?" (lleva a mitiendastock.com).
+  platformPromo: {
+    title: "¿Querés una tienda así para tu negocio?",
+    text: "Te armamos tu tienda online con tu nombre, tu logo y tus productos. Tus clientes arman el pedido y te llega listo a tu WhatsApp. La manejás desde el celular, rápido y fácil.",
+    ctaLabel: "Quiero mi tienda",
+  },
   platformCredit: {
     enabled: true,
     text: "¿Querés una tienda así?",
